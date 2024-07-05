@@ -27,11 +27,13 @@ export default function Navbar({ sectionData, currentSection, setCurrentSection 
 }
 
 Navbar.propTypes = {
-  sectionData: PropTypes.shape([{
-    id: PropTypes.number.isRequired,
-    title: PropTypes.string.isRequired,
-    link: PropTypes.string.isRequired,
-  }]).isRequired,
+  sectionData: PropTypes.arrayOf(
+    PropTypes.shape({
+      id: PropTypes.number.isRequired,
+      title: PropTypes.string.isRequired,
+      link: PropTypes.string.isRequired,
+    })
+  ).isRequired,
   currentSection: PropTypes.string.isRequired,
   setCurrentSection: PropTypes.func.isRequired,
 }

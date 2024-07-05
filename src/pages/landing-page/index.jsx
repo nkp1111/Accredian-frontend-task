@@ -16,14 +16,14 @@ export default function LandingPage() {
   return (
     <main className="w-screen min-h-screen bg-base-100 text-base-content">
       <Header />
+
       <GeneralPadding>
-        <div className="my-10">
+        <div className="mt-10">
           <PageNavbar
             currentSection={currentSection}
             setCurrentSection={setCurrentSection}
             sectionData={sectionData}
           />
-
           <div className="hero bg-primary-content/30 mt-5 w-full relative rounded-lg overflow-hidden lg:h-[450px]">
             <div className="overflow-hidden absolute w-full h-full left-0 top-0">
               <img src={backgroundSvg} alt="" />
@@ -34,7 +34,7 @@ export default function LandingPage() {
                   src={backgroundImage}
                   className="w-full shadow-2xl" />
               </div>
-              <div className="p-4 px-10 flex-1">
+              <div className="p-4 px-10 flex-1 pb-10">
                 <h1 className="text-6xl xl:text-7xl font-bold text-neutral mt-8">Let&apos;s Learn <br />& Earn</h1>
                 <p className="py-6 text-3xl">
                   Get a chance to win up-to <span className="text-primary font-bold">Rs. 15,000</span>
@@ -43,13 +43,13 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-
-          <div className="mt-10">
-            <ReferSection />
-          </div>
-
         </div>
       </GeneralPadding>
+
+
+      <div className="mt-10 bg-primary-content/30">
+        <ReferSection data={sectionData[0]} />
+      </div>
     </main>
   )
 }
