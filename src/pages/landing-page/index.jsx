@@ -9,7 +9,7 @@ import backgroundSvg from "../../assets/background-svg.svg";
 import backgroundImage from "../../assets/background-image.jpg";
 import ReferButton from "../../components/refer-button";
 import ReferSection from "./refer-section";
-
+import BenefitSection from "./benefit-section";
 
 export default function LandingPage() {
   const [currentSection, setCurrentSection] = useState(sectionData[0].title);
@@ -46,10 +46,15 @@ export default function LandingPage() {
         </div>
       </GeneralPadding>
 
-
       <div className="mt-10 bg-primary-content/30">
         <ReferSection data={sectionData[0]} />
       </div>
+
+      <GeneralPadding>
+        <div className="mt-10">
+          <BenefitSection data={sectionData[1]} />
+        </div>
+      </GeneralPadding>
     </main>
   )
 }
