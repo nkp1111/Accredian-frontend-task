@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 export default function GeneralPadding({ children }) {
   return (
-    <div className="md:px-32 px-8">
+    <div className="xl:px-32 md:px-28 px-8">
       {children}
     </div>
   )
