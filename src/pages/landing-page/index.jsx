@@ -10,6 +10,9 @@ import backgroundImage from "../../assets/background-image.jpg";
 import ReferButton from "../../components/refer-button";
 import ReferSection from "./refer-section";
 import BenefitSection from "./benefit-section";
+import FAQsection from "./faq-section";
+import ContactCard from "./contact-card.jsx";
+import Footer from "./footer";
 
 export default function LandingPage() {
   const [currentSection, setCurrentSection] = useState(sectionData[0].title);
@@ -53,6 +56,18 @@ export default function LandingPage() {
       <GeneralPadding>
         <div className="mt-10">
           <BenefitSection data={sectionData[1]} />
+        </div>
+
+        <div className="mt-10">
+          <FAQsection data={sectionData[2]} />
+        </div>
+
+        <div className="mt-10">
+          <ContactCard />
+        </div>
+
+        <div className="mt-10">
+          <Footer />
         </div>
       </GeneralPadding>
     </main>

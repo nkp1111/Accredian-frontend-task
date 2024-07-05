@@ -82,3 +82,61 @@ export const programData = [
     enrolledBonusAddition: "₹ 0",
   },
 ]
+
+
+
+export const faqQuestionType = [
+  "Eligibility",
+  "How to Use?",
+  "Terms & Conditions",
+];
+export const faqData = [
+  {
+    id: 1,
+    question: "Do I need to have prior Product Management and Project Management experience to enroll in the program?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 2,
+    question: "What is the minimum system configuration required?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 1,
+    question: "Do I need to have prior Product Management and Project Management experience to enroll in the program?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 2,
+    question: "What is the minimum system configuration required?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 1,
+    question: "Do I need to have prior Product Management and Project Management experience to enroll in the program?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 2,
+    question: "What is the minimum system configuration required?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 1,
+    question: "Do I need to have prior Product Management and Project Management experience to enroll in the program?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+  {
+    id: 2,
+    question: "What is the minimum system configuration required?",
+    answer: "No, the program is designed to be inclusive of all levels of experience. All topics will be covered from the basics, making it suitable for individuals from any field of work.",
+    type: "Eligibility",
+  },
+]
