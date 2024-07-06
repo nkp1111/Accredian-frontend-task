@@ -65,11 +65,11 @@ export default function LandingPage() {
         <div className="mt-10">
           <ContactCard />
         </div>
-
-        <div className="mt-10">
-          <Footer />
-        </div>
       </GeneralPadding>
+
+      <div className="mt-10">
+        <Footer />
+      </div>
     </main>
   )
 }

@@ -140,3 +140,15 @@ export const faqData = [
     type: "Eligibility",
   },
 ]
+
+
+export const footerNavData = [
+  { id: 1, title: "About", link: "#" },
+  { id: 2, title: "Career", link: "#" },
+  { id: 3, title: "Blog", link: "#" },
+  { id: 4, title: "Admission Policy", link: "#" },
+  { id: 5, title: "Referral Policy", link: "#" },
+  { id: 6, title: "Privacy Policy", link: "#" },
+  { id: 7, title: "Terms of service", link: "#" },
+  { id: 8, title: "Master FAQs", link: "#" },
+]
