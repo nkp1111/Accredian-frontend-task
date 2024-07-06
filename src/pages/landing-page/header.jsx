@@ -26,7 +26,7 @@ export default function Header() {
             <nav className="px-0 gap-[inherit]">
               <ul className="flex list-none gap-[inherit] ">
                 {navData.map((item, index) => (
-                  <li key={index}><a href={item.link}>{item.title}</a></li>
+                  <li key={index} className="border border-b-transparent hover:border-b-primary"><a href={item.link}>{item.title}</a></li>
                 ))}
               </ul>
             </nav>
@@ -55,7 +55,7 @@ export default function Header() {
               <aside tabIndex={0} className="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow">
                 <ul >
                   {navData.map((item, index) => (
-                    <li key={index}><a href={item.link}>{item.title}</a></li>
+                    <li key={index} className="border border-b-transparent hover:border-b-primary"><a href={item.link}>{item.title}</a></li>
                   ))}
                 </ul>
                 <button className="btn btn-ghost">Login</button>

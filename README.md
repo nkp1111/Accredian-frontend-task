@@ -1,8 +1,50 @@
-# React + Vite
+# Accredian-frontend-task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Table of Contents
 
-Currently, two official plugins are available:
+- [Links](#links)
+- [Technology](#technologies-used)
+- [Installation](#installation)
+- [Contact](#contact)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Links
+
+- [github link](https://github.com/nkp1111/store-nest/frontAccredian-frontend-task)
+- [live server link]()
+
+- ![Screenshot](./public/screencapture-localhost-5173-2024-07-06-13_01_55.png)
+
+## Technologies Used
+
+- react
+- tailwindcss
+- daisyui
+- react-icons
+- react-toastify
+- react-hook-form
+- axios
+
+## Installation
+
+Instructions on how to install and set up your project locally.
+
+```bash
+# Clone the repository
+git clone https://github.com/nkp1111/Accredian-frontend-task.git
+
+# Navigate to the project directory
+cd Accredian-frontend-task
+
+# Install dependencies
+npm install
+
+# Run the development server
+npm run dev
+```
+
+## Contact
+
+- Neeraj Parmar
+- GitHub [nkp1111](https://github.com/nkp1111)
+- LinkedIn [neeraj](https://www.linkedin.com/in/neeraj-parmar-058591244/)
+- Twitter [@nkp11111507](https://twitter.com/@nkp11111507)
