@@ -9,8 +9,8 @@
 
 ## Links
 
-- [github link](https://github.com/nkp1111/store-nest/frontAccredian-frontend-task)
-- [live server link]()
+- [github link](https://github.com/nkp1111/Accredian-frontend-task)
+- [live server link](https://accredian-frontend-task-rose-seven.vercel.app/)
 
 - ![Screenshot](./public/screencapture-localhost-5173-2024-07-06-13_01_55.png)
 
