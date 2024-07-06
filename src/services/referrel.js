@@ -2,7 +2,7 @@ import { axiosInstance } from "../constant"
 
 export const sendRefer = async (data) => {
   try {
-    const sendRefUrl = "/api/admin/send-ref";
+    const sendRefUrl = "/api/ref";
     const response = await axiosInstance.post(sendRefUrl, data);
     // console.log(response, 'create store')
     if (response?.data?.success) {

@@ -12,7 +12,7 @@ export default function ReferButton() {
     const { fromEmail, toEmail, program } = data;
     if (!fromEmail || !toEmail || !program) return;
     // create new store
-    sendRefer(data)
+    sendRefer({ program, referrer: fromEmail, referee: toEmail })
       .then(data => {
         if (data && data.success) {
           notify(data.success || "successfully referred", "success");
@@ -60,7 +60,7 @@ export default function ReferButton() {
                 type="email"
                 placeholder="Enter email"
                 className="input input-bordered w-full"
-                {...register("toEmail", {
+                {...register("fromEmail", {
                   required: true,
                   pattern: {
                     value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
@@ -68,7 +68,7 @@ export default function ReferButton() {
                   }
                 })}
               />
-              {errors.toEmail && <p className="text-red-500 text-sm mt-1">{errors.toEmail.message}</p>}
+              {errors.fromEmail && <p className="text-red-500 text-sm mt-1">{errors.fromEmail.message}</p>}
             </label>
 
             <label className="form-control w-full">
@@ -80,7 +80,7 @@ export default function ReferButton() {
                 type="email"
                 placeholder="Enter referee email"
                 className="input input-bordered w-full"
-                {...register("fromEmail", {
+                {...register("toEmail", {
                   required: true,
                   pattern: {
                     value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
@@ -88,7 +88,7 @@ export default function ReferButton() {
                   }
                 })}
               />
-              {errors.fromEmail && <p className="text-red-500 text-sm mt-1">{errors.fromEmail.message}</p>}
+              {errors.toEmail && <p className="text-red-500 text-sm mt-1">{errors.toEmail.message}</p>}
             </label>
 
 
